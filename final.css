@@ -32,6 +32,7 @@ section {
 }
 
 .project {
+    /*
     width: 200px;
     height: 75px;
     background: rgb(43, 197, 220);
@@ -41,7 +42,23 @@ section {
     align-items: center;
     justify-content: center;
     transition: transform 0.3s ease;
-    border-radius: 50%;
+    border-radius: 50%;*/
+
+    background-color: #3498db;
+    color: white;
+    align-items: center;
+    justify-content: center;    
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 20px auto;
+    display: flex;    
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+
+
 }
 
 /* Animaciones */
